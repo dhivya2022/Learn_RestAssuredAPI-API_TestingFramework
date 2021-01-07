@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 13.751 s <<< FAILURE! - in TestSuite
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 1.266 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 1.277 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
