@@ -1,13 +1,1769 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 13.751 s <<< FAILURE! - in TestSuite
-validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 1.266 s  <<< FAILURE!
+Tests run: 697, Failures: 354, Errors: 0, Skipped: 1, Time elapsed: 97.067 s <<< FAILURE! - in TestSuite
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.006 s  <<< FAILURE!
 java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
 	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
 	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
 
-validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 1.277 s  <<< FAILURE!
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateCreateCustomerAPI(com.learning.testcases.CreateCustomerTest)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [400]
+	at com.learning.testcases.CreateCustomerTest.validateCreateCustomerAPI(CreateCustomerTest.java:30)
+
+validateCreateCustomerAPI(com.learning.testcases.CreateCustomerTest)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [400]
+	at com.learning.testcases.CreateCustomerTest.validateCreateCustomerAPI(CreateCustomerTest.java:30)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.019 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateCreateCustomerAPI(com.learning.testcases.CreateCustomerTest)  Time elapsed: 0.019 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [400]
+	at com.learning.testcases.CreateCustomerTest.validateCreateCustomerAPI(CreateCustomerTest.java:30)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.084 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateCreateCustomerAPI(com.learning.testcases.CreateCustomerTest)  Time elapsed: 0.834 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [400]
+	at com.learning.testcases.CreateCustomerTest.validateCreateCustomerAPI(CreateCustomerTest.java:30)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.018 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.018 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.025 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.147 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.098 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.198 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.042 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.017 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.018 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.018 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.02 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.02 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.016 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.154 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.15 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.349 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.081 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.015 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.128 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.157 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.395 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.097 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.014 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.037 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.03 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.198 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.57 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.108 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.023 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.015 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.069 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.176 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.042 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.823 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.018 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.058 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.044 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.024 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.129 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.129 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.872 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.035 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.02 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.024 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.024 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.055 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.05 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.054 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.063 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.021 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.061 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.061 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.055 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.022 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.161 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.023 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.076 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.142 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.058 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.058 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.049 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.21 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.101 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.101 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.133 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.175 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.026 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.165 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.077 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.023 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.346 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.019 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.16 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.024 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.129 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.152 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.023 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.442 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.028 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.04 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.106 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.019 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.028 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.088 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.018 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.612 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.016 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.039 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.081 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.043 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.035 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.167 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.047 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.024 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.032 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.019 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.022 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.048 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.061 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.043 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.022 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.018 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.018 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.049 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.087 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.086 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.107 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.028 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.016 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.075 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.167 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.07 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.104 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.033 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.02 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.033 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.044 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.045 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.048 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.151 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.1 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.307 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.03 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.018 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.029 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.07 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.025 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.039 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.183 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.065 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.517 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.015 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.051 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.045 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.055 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.033 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.033 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.019 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.703 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.024 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.024 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.023 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.098 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.03 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.052 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.058 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.658 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.027 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.025 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.04 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.015 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.14 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.086 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.048 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.07 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.061 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.063 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.063 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.053 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.125 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.144 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 1.868 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 1.868 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 1.868 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 1.868 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 1.868 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 1.603 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 1.607 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 1.607 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 1.336 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.054 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.016 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 1.197 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.018 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.03 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.042 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.019 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 1.15 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.014 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.093 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.019 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.034 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.029 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.033 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.044 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.016 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.05 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 1.173 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.055 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.06 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.048 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 1.146 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.145 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.03 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.023 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.018 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.019 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.033 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.034 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.08 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 1.14 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.071 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.127 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 1.138 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.139 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.031 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 1.329 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.035 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.097 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 1.232 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.067 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.067 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.072 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.072 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.072 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 1.083 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.017 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.041 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.015 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.039 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 1.141 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.046 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.017 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 1.071 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.029 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.088 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.049 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.037 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.016 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.922 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.063 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.953 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.953 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.014 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.031 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.905 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.03 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.126 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 0.483 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 1.377 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 1.377 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 1.396 s  <<< FAILURE!
+java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
+	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
+	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)
+
+validateDeleteCustomerAPI(com.learning.testcases.DeleteCustomerTest)  Time elapsed: 1.453 s  <<< FAILURE!
 java.lang.AssertionError: Response doesn't have ID as a field expected [true] but found [false]
 	at com.learning.testcases.DeleteCustomerTest.doValidationUsingJSONObject(DeleteCustomerTest.java:51)
 	at com.learning.testcases.DeleteCustomerTest.validateDeleteCustomerAPI(DeleteCustomerTest.java:37)

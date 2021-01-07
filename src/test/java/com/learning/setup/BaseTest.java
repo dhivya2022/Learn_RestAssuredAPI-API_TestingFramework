@@ -15,11 +15,8 @@ import io.restassured.RestAssured;
 
 public class BaseTest {
 
-	private FileInputStream fis;
 	public Properties config = new Properties();
-//	public ExcelReader excel = new ExcelReader(".\\src\\test\\java\\com\\learning\\utilities\\ExcelReader.java");
-	public static ExcelReader excel = new ExcelReader(
-			System.getProperty("user.dir") + "\\src\\test\\resources\\excel\\testdata.xlsx");
+	public static ExcelReader excel = new ExcelReader(Constants.ExcelSheet);
 
 	@BeforeSuite
 	public void setup() {
@@ -29,7 +26,7 @@ public class BaseTest {
 
 		FileInputStream fis = null;
 		try {
-			fis = new FileInputStream(".\\src\\test\\resources\\properties\\config.properties");
+			fis = new FileInputStream(Constants.Properties_Config);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}

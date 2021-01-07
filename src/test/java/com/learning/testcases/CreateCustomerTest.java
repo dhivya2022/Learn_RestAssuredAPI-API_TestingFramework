@@ -3,6 +3,7 @@ package com.learning.testcases;
 import java.util.Hashtable;
 
 import org.testng.Assert;
+import org.testng.SkipException;
 import org.testng.annotations.Test;
 
 import com.learning.APIs.CreateCustomerAPI;
@@ -27,6 +28,11 @@ public class CreateCustomerTest extends BaseTest {
 
 		System.out.println("Status code: " + response.statusCode());
 		Assert.assertEquals(response.statusCode(), 200);
+	}
+
+	@Test
+	public void skipTestIntentionally() {
+		throw new SkipException("Skipping the test intentionally");
 	}
 
 //	@Test(dataProviderClass = DataUtil.class, dataProvider = "dp")

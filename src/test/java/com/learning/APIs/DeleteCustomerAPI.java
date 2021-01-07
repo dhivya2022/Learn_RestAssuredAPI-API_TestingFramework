@@ -14,7 +14,6 @@ public class DeleteCustomerAPI {
 			Hashtable<String, String> data) {
 
 		String customer_id = data.get(Constants.Excel_customer_id);
-
 		Response response = given().auth().basic(Constants.Stripe_Valid_API_Key, "")
 				.delete(Constants.Stripe_CustomerAPI_EndPoint + "/" + customer_id);
 

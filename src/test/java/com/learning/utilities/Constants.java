@@ -2,6 +2,12 @@ package com.learning.utilities;
 
 public interface Constants {
 
+	public final String Project_Name = "API Automation Suite Report using Rest Assured API";
+	public final String Emailable_Report = ".\\target\\surefire-reports\\emailable-report.html";
+
+	public final String ExcelSheet = ".\\src\\test\\resources\\excel\\testdata.xlsx";
+	public final String Properties_Config = ".\\src\\test\\resources\\properties\\config.properties";
+
 	public final String Stripe_BaseURI = "https://api.stripe.com";
 	public final String Stripe_BasePath = "/v1";
 	public final String Stripe_CustomerAPI_EndPoint = "/customers";
@@ -15,5 +21,5 @@ public interface Constants {
 	public final String Excel_description = "description";
 
 	public final String Excel_customer_id = "customer_id";
-	
+
 }
