@@ -31,7 +31,6 @@ import com.learning.utilities.Constants;
 import com.learning.utilities.EmailAttachmentsSender;
 import com.learning.utilities.MonitoringMail;
 import com.learning.utilities.TestConfig;
-import com.learning.utilities.TestUtil;
 
 public class ExtentListeners implements ITestListener, ISuiteListener {
 
@@ -43,8 +42,7 @@ public class ExtentListeners implements ITestListener, ISuiteListener {
 	static Date d = new Date();
 	static String fileName = "Extent_" + d.toString().replace(":", "_").replace(" ", "_") + ".html";
 
-	private static ExtentReports extent = ExtentManager
-			.createInstance(System.getProperty("user.dir") + "\\reports\\" + fileName);
+	private static ExtentReports extent = ExtentManager.createInstance(Constants.REPORTS_Folder + fileName);
 
 	public static ThreadLocal<ExtentTest> testReport = new ThreadLocal<ExtentTest>();
 	static String messageBody;
@@ -153,7 +151,7 @@ public class ExtentListeners implements ITestListener, ISuiteListener {
 		// String messageBody = "Test Message Body";
 		String messageBody = getTestCasesCountInFormat();
 
-		String attachmentFile_ExtentReport = ".\\reports\\" + fileName;
+		String attachmentFile_ExtentReport = Constants.REPORTS_Folder + fileName;
 		String attachmentFile_EMailableReport = Constants.Emailable_Report;
 
 		System.out.println(messageBody);
@@ -181,7 +179,7 @@ public class ExtentListeners implements ITestListener, ISuiteListener {
 		String messageBody = getTestCasesCountInFormat();
 
 		// String attachmentFile = ".\\test-output\\emailable-report.html;
-		String attachmentFile = ".\\reports\\" + fileName;
+		String attachmentFile = Constants.REPORTS_Folder + fileName;
 
 		System.out.println(messageBody);
 
@@ -198,7 +196,7 @@ public class ExtentListeners implements ITestListener, ISuiteListener {
 		// String messageBody = getTestCasesCountInFormat();
 
 		// String attachmentFile = ".\\test-output\\emailable-report.html;
-		String attachmentFile = ".\\reports\\" + fileName;
+		String attachmentFile = Constants.REPORTS_Folder + fileName;
 
 		System.out.println(messageBody);
 

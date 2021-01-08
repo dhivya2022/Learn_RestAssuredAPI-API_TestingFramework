@@ -5,9 +5,11 @@ import java.util.Hashtable;
 
 import org.testng.annotations.DataProvider;
 
-import com.learning.setup.BaseTest;
+import com.learning.setup.stripe.BaseTest_Stripe;
 
-public class DataUtil extends BaseTest {
+public class DataUtil {
+
+	public static ExcelReader excel = new ExcelReader(Constants.ExcelSheet);
 
 	/**
 	 * (name = "dp", parallel = true)

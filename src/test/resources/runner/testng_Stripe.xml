@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<!-- parallel="tests -> means this will allow the mentioned tests to run 
+	parallely -->
+<suite name="Stripe - API Automation Suite using Rest Assured API"
+	parallel="tests">
+
+	<listeners>
+		<listener class-name="com.learning.listeners.ExtentListeners">
+		</listener>
+	</listeners>
+
+	<test name="Create Customer API Test">
+		<!-- <test thread-count="5" name="Test"> -->
+		<classes>
+			<class name="com.learning.testcases.stripe.CreateCustomerTest" />
+
+		</classes>
+	</test> <!-- Test -->
+
+
+	<test name="Delete Customer API Test">
+		<classes>
+			<class name="com.learning.testcases.stripe.DeleteCustomerTest" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
