@@ -34,7 +34,7 @@ public interface Constants {
 	public final String Stripe_BasePath = "/v1";
 	public final String Stripe_CustomerAPI_EndPoint = "/customers";
 
-	public final String Stripe_Valid_API_Key = "sk_test_51I5nXuBrNpPA76Mp7VEBMUPMN6pcx7IBjXUgZk2Z8Tg9k3hacOJwE5bXYsITPtHHB6H6FKF5zjMhJV1byueGzDdy00P0WaC6QW";
+	public final String Stripe_Valid_API_Key = "Use valid API key";
 	public final String Stripe_Invalid_API_Key = "dsakdjkahfjfd";
 
 	/**
@@ -43,7 +43,7 @@ public interface Constants {
 	public final String PayPal_BaseURI = "https://api.sandbox.paypal.com/";
 	public final String PayPal_CustomerAPI_EndPoint = "/customers";
 
-	public final String PayPal_Client_ID = "ATnRbBi8HuuisE37n1uDHNcuCSSPRHHMBcgKiuX2pFOlld0IwnpU9ViRqHRRQnMcpLfYIIjeNJRI2jtt";
-	public final String PayPal_Secret = "ENJx5BDbQI1V0ryP4JJwbIMLNVDdRyLiArG1C6LuegZa2BDmUM6di56w_B3ZnpZ62Mqp8A2FLpxyqFPm";
+	public final String PayPal_Client_ID = "Use Client ID";
+	public final String PayPal_Secret = "Use Secret Key";
 
 }
