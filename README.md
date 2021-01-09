@@ -13,6 +13,18 @@ PayPal: https://developer.paypal.com/home - Create PayPal business account for u
 
 ----------------------------------
 
+1) You can send mail to 
+        a) n no. of recipients
+        b) n no. of attachments 
+                - 2 are already attached (Extent Report and Emailable Report)
+
+and Reports will be shared to the Recepients in the proper format via Mail
+which will have count for Test cases (Total, PAssed, FAiled, Skipped)
+
+
+
+----------------------------------
+
 How to run the Project?
 1) Pull/Clone the Code
 2) Import it as a Maven Project
@@ -22,16 +34,16 @@ How to run the Project?
 4) Right click on the Project -> Run as Mvn Test
 ----------------------------------
 
-REST API Method - GET, POST, DELETE etc
-Handling OAUTH Authentication
-JSON & XML
-Introduction to Jackson Library
-TestNG
-Maven
-Reporting Extent Report
-Parallel Execution
-Data Driven
-
+1) REST API Method - GET, POST, DELETE etc
+2) Handling OAUTH Authentication
+3) JSON & XML
+4) Introduction to Jackson Library
+5) TestNG
+6) Maven
+7) Reporting Extent Report
+8) Parallel Execution
+9) Data Driven
+10) Java MAIL API
 
 
 
